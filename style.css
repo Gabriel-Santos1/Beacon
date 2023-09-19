@@ -3,5 +3,11 @@ body{
     background-repeat: no-repeat;
     background-position:top center;
     background-size: cover;
-    display:
+}
+
+#container{
+        width: 360px;
+        height: 712px;
+        border: 1px solid blue;
+        margin: auto;
 }
