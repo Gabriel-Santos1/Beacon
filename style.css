@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 
 body {
     background-image: url(./assets/bg-mobile.jpg);
@@ -36,6 +39,7 @@ body * {
     font-size: 16px;
     line-height: 24px;
     margin-top: 8px;
+    padding: 24px 0;
 }
 
 /* Links */
@@ -58,11 +62,40 @@ ul li a {
     -webkit-animation-backdrop-filter: blur(4px);
     text-decoration: none;
     font-weight: 500;
-    transition: background 0.2s;
+    transition:  0.2s;
 }
 
 ul li a:hover {
     background: rgba(255, 255, 255, 0.5);
     border: 1.5px solid white;
 
+}
+
+#social {
+    display: flex;
+    padding: 24px 0;
+    font-size: 24px;
+    justify-content: center;
+    
+}
+
+#social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50%;
+    transition:  0.5s;
+
+}
+
+#social a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    
+    
+}
+
+footer {
+    padding: 24px;
+    text-align: center;
 }
